@@ -1,4 +1,3 @@
-# Data-Struc
 # graph.py
 # Graph using adjacency list
 

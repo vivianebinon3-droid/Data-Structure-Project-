@@ -1,0 +1,17 @@
+# primitive_types.py
+# This file demonstrates primitive data types in Python
+
+def primitive_demo():
+    age = 20
+    average_score = 76.5
+    grade = 'A'
+    is_active = True
+
+    print("Age:", age)
+    print("Average Score:", average_score)
+    print("Grade:", grade)
+    print("Active Status:", is_active)
+
+
+if __name__ == "__main__":
+    primitive_demo()
