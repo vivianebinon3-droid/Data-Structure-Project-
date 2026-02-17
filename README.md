@@ -18,10 +18,12 @@ This classification helps programmers choose the most suitable structure dependi
 
 3. Primitive Data Structures
 Primitive data structures store single, simple values. They form the building blocks of more complex data structures.
+
 Examples
 •	Integer (int)
 •	Floating point (float)
 •	Character (char)
+
 Applications and Reasons
 Primitive data structures are used in:
 •	Inventory systems
@@ -36,20 +38,25 @@ Non-primitive data structures store collections of data and are used when handli
 Linear data structures arrange elements in a sequential order.
 
 4.1.1 Arrays
+
 Definition:
 An array is a collection of elements of the same type stored at contiguous memory locations. It allows random access using indices.
+
 Applications & Why:
 •	Used in image processing (pixels stored in arrays).
 •	Applied in scientific simulations (large datasets indexed).
 Arrays are chosen because they allow fast random access.
+
 Real-world Examples & Reasons:
 •	YouTube video frames are stored as arrays of pixels → arrays allow quick rendering of millions of pixels per frame.
 •	Excel spreadsheets internally use arrays → arrays make it easy to access cells by row/column indices.
 
 
 4.1.2 Linked List
+
 Definition:
 A linked list is a linear data structure where elements (nodes) are connected using pointers. Each node contains data and a reference to the next node.
+
 Applications & Why:
 •	Music playlists (songs linked one after another).
 •	Undo/Redo functionality in text editors.
@@ -59,8 +66,10 @@ Real-world Examples & Reasons:
 •	Microsoft Word → undo/redo operations rely on linked lists to track changes in sequence.
 
 4.1.3 Stack
+
 Definition:
 A stack is a linear data structure that follows LIFO (Last In First Out). Insertions and deletions happen at one end (the top).
+
 Applications & Why:
 •	Browser history navigation (back/forward).
 •	Expression evaluation in compilers.
@@ -70,8 +79,10 @@ Real-world Examples & Reasons:
 •	Java compilers → stacks evaluate nested expressions during code compilation.
 
 4.1.4 Queue
+
 Definition:
 A queue is a linear data structure that follows FIFO (First In First Out). Insertions happen at the rear, deletions at the front.
+
 Applications & Why:
 •	Print spooling (jobs queued for printer).
 •	Customer service systems (FIFO order).
@@ -84,8 +95,10 @@ Real-world Examples & Reasons:
 Non-linear data structures organize data in a hierarchical or interconnected manner.
 
 4.2.1 Trees
+
 Definition:
 A tree is a hierarchical data structure with nodes connected in parent-child relationships. The top node is the root, and bottom nodes are leaves.
+
 Applications & Why:
 •	File systems (folders and subfolders).
 •	Decision-making in AI (decision trees).
@@ -95,8 +108,10 @@ Real-world Examples & Reasons:
 •	Google Search ranking → decision trees classify and rank results efficiently.
 
 4.2.2 Graphs
+
 Definition:
 A graph is a set of vertices connected by edges. Unlike trees, graphs can have cycles.
+
 Applications & Why:
 •	Social networks (users as nodes, friendships as edges).
 •	Navigation systems (cities as nodes, roads as edges).
@@ -112,6 +127,7 @@ Real-world Examples & Reasons:
 •	Merging: Used in Excel when combining datasets.
 . How Data Structures & Algorithms Work in Systems
 From our research, we learned that data structures determine how data is stored in memory, while algorithms determine how that data is processed. A system becomes efficient only when both are chosen correctly.
+
 For example:
 •	Operating Systems: Use queues for process scheduling.
 •	Compilers: Use stacks for parsing expressions.
